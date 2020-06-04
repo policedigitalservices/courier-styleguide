@@ -44,30 +44,10 @@
 
   <h3>Buttons</h3>
 
-
-
-
-  <button class="button button--primary"><span class="button__label"><i class="button__icon--new"></i>Button Link</span></button>
-  <button class="button button--primary"><span class="button__label">Button Link <i class="button__icon--new"></i></span></button>
-
-  <button class="button button--primary"><span class="button__label">Button Link</span></button>
-  <button class="button button--primary button--small"><span class="button__label"><i class="button__icon--new"></i>Button Link</span></button>
-  <button class="button button--primary button--small"><span class="button__label">Button Link <i class="button__icon--new"></i></span></button>
   <button class="button button--primary button--small"><span class="button__label">Button Link</span></button>
   <br>
-
-  <button class="button button--secondary"><span class="button__label"><i class="button__icon--new"></i>Button Link</span></button>
-  <button class="button button--secondary"><span class="button__label">Button Link <i class="button__icon--new"></i></span></button>
-  <button class="button button--secondary"><span class="button__label">Button Link</span></button>
-  <button class="button button--secondary button--small"><span class="button__label"><i class="button__icon--new"></i>Button Link</span></button>
-  <button class="button button--secondary button--small"><span class="button__label">Button Link <i class="button__icon--new"></i></span></button>
   <button class="button button--secondary button--small"><span class="button__label">Button Link</span></button>
   <br>
-  <button class="button button--transparent"><span class="button__label"><i class="button__icon--new"></i>Button Link</span></button>
-  <button class="button button--transparent"><span class="button__label">Button Link <i class="button__icon--new"></i></span></button>
-  <button class="button button--transparent"><span class="button__label">Button Link</span></button>
-  <button class="button button--transparent button--small"><span class="button__label"><i class="button__icon--new"></i>Button Link</span></button>
-  <button class="button button--transparent button--small"><span class="button__label">Button Link <i class="button__icon--new"></i></span></button>
   <button class="button button--transparent button--small"><span class="button__label">Button Link</span></button>
 
   <hr>
@@ -116,22 +96,21 @@
 <h4>Groups list</h4>
 
 <div class="group__list">
-<ul class="group-selector__list">
-    <li class="group-selector__group group-selector__group--parent group-selector__group--active">
-        <a href="?group=\" class="group-selector__link group-selector__link--current">\</a>
-        <ul class="group-selector__list">
-            <li class="group-selector__group"><a href="?group=\All contacts" class="group-selector__link">All contacts</a></li>
-            <li class="group-selector__group group-selector__group--parent">
-                <a href="?group=\test" class="group-selector__link">test</a>
-                <ul class="group-selector__list">
-                    <li class="group-selector__group"><a href="?group=\test\sub-child" class="group-selector__link">sub-child</a></li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-</ul>
+  <ul class="group-selector__list">
+      <li class="group-selector__group"><a href="?group=\All contacts" class="group-selector__link">All contacts</a></li>
+      <li class="group-selector__group group-selector__group--parent">
+          <a href="?group=\test" class="group-selector__link">test</a>
+          <ul class="group-selector__list">
 
+              <li class="group-selector__group"><label for="\">sub-child</label><input type="checkbox" class="GroupItem" name="sub-child" value="" id="sub-child">
+              <ul class="group-selector__list">
+              <li class="group-selector__group"><label for="\"><i class="material-icons">add</i>  sub-child</label><input type="checkbox" class="GroupItem" name="sub-child" value="" id="sub-child"></li>
+          </ul></li>
+          </ul>
+      </li>
+  </ul>
 </div>
+
 
 
 
